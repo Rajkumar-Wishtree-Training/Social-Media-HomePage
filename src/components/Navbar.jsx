@@ -66,7 +66,7 @@ const Navbar = () => {
         </ModifiedTypo>
         <ModifiedMenuIcon/>
         <Search>
-          <InputBase placeholder="Search..." />
+          <InputBase placeholder="Search..." sx={{color : 'black' , fontStyle:'revert' }}/>
         </Search>
         <Icons>
           <Badge badgeContent={4} color="error">
